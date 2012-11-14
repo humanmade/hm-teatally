@@ -1,0 +1,51 @@
+
+.hmtt.widefat tr td				{ padding-right: 10px; border-top-color: #F9F9F9; vertical-align: middle; }
+
+.hmtt td.hmtt-button			{ vertical-align: bottom; }
+
+.hmtt-chart-wrap 	    		{ float: right; }
+
+.hmtt.widefat 					{ margin-top: 10px; }
+
+.hmtt-tally						{ width: 100%; }
+
+.hmtt-tally	.hmtt-name			{ width: 200px; }		
+
+.hmtt .padded 					{ margin: 0 20px; }
+
+.hmtt.widefat>h1				{ margin: 20px 0 5px 0; padding-left: 10px; }
+
+.hmtt.button-primary 			{ margin: 5px 5px 5px 0; float: right; }
+
+.clearfix 			    		{ clear: both; }
+
+.hmtt-date 						{width: 30%}
+
+.hmtt_history					{ width: 100%; }
+
+.hmtt table tr:last-child td, 
+.hmtt table tr:last-child th 	{ border-bottom: none; }
+
+.hmtt .hmtt_receivers			{ line-height: 2; } 
+
+.hmtt ul						{ list-style: none; padding-top: 15px; } 
+
+.hmtt ul li						{ display: inline-block;  width: 20px; height: 20px; background: url( 'hmtt-tea-cup.png' ) no-repeat 0px 0px; }
+
+.hmtt table tr .hmtt-button		{ vertical-align: bottom; padding-bottom: 10px; padding-top: 0px; }
+
+.hmtt li.hmtt-in-credit 		{  background-position: 0 -45px;  }
+
+.hmtt li.hmtt-next-up	 		{  background-position: 0 -22px;  }
+
+@media ( max-width: 900px ) {
+	
+	.hmtt-main-wrap 			{ width: 98%; }
+
+}
+
+@media ( max-width: 640px ) {
+	
+	.hmtt-chart-wrap 			{ width: 68%; margin-left: 32%; }
+
+}
